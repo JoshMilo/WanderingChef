@@ -1,14 +1,13 @@
 body {
     margin: 0 auto;
     line-height: 1.7em;
-    font-family: 'Metrophobic', sans-serif;
 }
 
 .l-box {
     padding: 1em;
 }
 
-h1 {
+h1, h2, h4 {
     font-family: 'Pompiere', cursive;
 }
 
@@ -27,7 +26,7 @@ h1 {
 }
 
 body .primary-button {
-    background: #02a6eb;
+    background: #7F8C8D;
     color: #fff;
 }
 
@@ -85,7 +84,7 @@ body .primary-button {
 }
 
 .footer {
-    background: #34495E;
+    background: #7F8C8D;
     color: #ffffff;
     text-align: left;
     padding: 1em;
@@ -170,4 +169,34 @@ body .primary-button {
 .imgbox {
     height: 9.8em;
     margin-top: 3px;
+}
+
+.project-header {
+    text-align: center;
+}
+
+.project-padding {
+    padding-left: 2em;
+}
+
+.b-large {
+    padding: .7em 1em .6em 1em;
+}
+
+.btntext {
+    font-size: 200%;
+}
+
+.s-large {
+    height: 2em;
+}
+
+.content-large {
+    padding: 1em;
+}
+
+.project-info {
+    display: inline;
+    list-style-type: none;
+    padding-top: 4px;
 }

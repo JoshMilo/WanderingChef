@@ -89,8 +89,13 @@ body .primary-button {
     text-align: left;
     padding: 1em;
     font-size: 80%;
+    /* bottom:0;
+    width:100%;   */
 }
-
+   /*
+.footer-fix {
+    position: absolute;
+}      */
 .cuisine {
     line-height: .5em;
     margin: 0;
@@ -180,7 +185,7 @@ body .primary-button {
 }
 
 .b-large {
-    padding: .7em 1em .6em 1em;
+    padding: .6em 1em .6em 1em;
 }
 
 .btntext {
@@ -199,4 +204,12 @@ body .primary-button {
     display: inline;
     list-style-type: none;
     padding-top: 4px;
+}
+
+.menu {
+    padding-left: 11em;
+}
+
+li, p {
+    font-family: 'Muli', sans-serif;
 }

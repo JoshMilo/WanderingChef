@@ -7,8 +7,8 @@ body {
     padding: 1em;
 }
 
-h1, h2, h4 {
-    font-family: 'Libre Baskerville', serif;
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
 }
 
 .header {
@@ -180,6 +180,12 @@ body .primary-button {
     margin-top: -8px;
 }
 
+.success {
+    background: rgb(76, 201, 71);
+    margin-left: 36em;
+    padding: 2em;
+}
+
 .btntext {
     font-size: 200%;
 }
@@ -220,4 +226,19 @@ li, p {
 .meal-description {
     text-align: center;
     width: 98%;
+}
+
+/*  CHEF'S PROFILE PAGE STYLES */
+
+.profile-header {
+    font-size: 200%;
+    padding-left: .5em;
+    font-family: 'Playfair Display', serif;
+}
+.universal-padding {
+    padding: 1em 0 .5em 1em;
+}
+
+.edit-profile {
+
 }

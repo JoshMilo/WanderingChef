@@ -116,26 +116,17 @@ body .primary-button {
     height: .7em;
     position: relative;
     margin-top: .2em;
-    background: #e1f2e3;
-    border: 1px solid #126812;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    background: #eeeeee;
+    border: 0px solid #126812;
 }
 
 .skill-bar-content {
     text-indent: 12px;
     color: #126812;
     padding: 5.3px 0;
-    background: #50be63;
+    background: #BA3825;
     text-shadow: 1px 1px 0px #50be63;
     font-weight: 700;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     -moz-backface-visibility:    hidden;
     -ms-backface-visibility:     hidden;
     -webkit-backface-visibility: hidden;

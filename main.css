@@ -116,7 +116,7 @@ body .primary-button {
     height: .7em;
     position: relative;
     margin-top: .2em;
-    background: #eeeeee;
+    background: #E8C9C8;
     border: 0px solid #126812;
 }
 
@@ -185,11 +185,11 @@ body .primary-button {
 }
 
 .s-large {
-    height: 2em;
+    height: 1em;
 }
 
 .content-large {
-    padding: 1em;
+    padding: .5em;
 }
 
 .project-info {

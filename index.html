@@ -9,139 +9,6 @@
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
 	<link rel="stylesheet" href="main.css"/>
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="jquery.slides.min.js"></script>
-
-	<script>
-		$(function(){
-			$("#slides").slidesjs({
-				width: 960,
-				height: 300,
-				play: {
-					active: true,
-					// [boolean] Generate the play and stop buttons.
-					// You cannot use your own buttons. Sorry.
-					effect: "slide",
-					// [string] Can be either "slide" or "fade".
-					interval: 5000,
-					// [number] Time spent on each slide in milliseconds.
-					auto: true,
-					// [boolean] Start playing the slideshow on load.
-					swap: true,
-					// [boolean] show/hide stop and play buttons
-					pauseOnHover: false,
-					// [boolean] pause a playing slideshow on hover
-					restartDelay: 2500
-					// [number] restart delay on inactive slideshow
-				}
-			});
-		});
-	</script>
-	<style type="text/css">
-		#slides {
-			display: none
-		}
-
-		#slides .slidesjs-navigation {
-			margin-top:10px;
-			margin-left: 17px;
-		}
-
-		a.slidesjs-next,
-		a.slidesjs-previous,
-		a.slidesjs-play,
-		a.slidesjs-stop {
-			background-image: url(img/btns-next-prev.png);
-			background-repeat: no-repeat;
-			display:block;
-			width:12px;
-			height:18px;
-			overflow: hidden;
-			text-indent: -9999px;
-			float: left;
-		}
-
-		a.slidesjs-next {
-			margin-right:10px;
-			background-position: -12px 0;
-		}
-
-		a:hover.slidesjs-next {
-			background-position: -12px -18px;
-		}
-
-		a.slidesjs-previous {
-			background-position: 0 0;
-		}
-
-		a:hover.slidesjs-previous {
-			background-position: 0 -18px;
-		}
-
-		a.slidesjs-play {
-			width:15px;
-			background-position: -25px 0;
-		}
-
-		a:hover.slidesjs-play {
-			background-position: -25px -18px;
-		}
-
-		a.slidesjs-stop {
-			width:18px;
-			background-position: -41px 0;
-		}
-
-		a:hover.slidesjs-stop {
-			background-position: -41px -18px;
-		}
-
-		.slidesjs-pagination {
-			margin: 7px 0 0;
-			float: right;
-			list-style: none;
-			margin-right: 1.6em;
-		}
-
-		.slidesjs-pagination li {
-			float: left;
-			margin: 0 1px;
-		}
-
-		.slidesjs-pagination li a {
-			display: block;
-			width: 13px;
-			height: 0;
-			padding-top: 13px;
-			background-image: url(img/pagination.png);
-			background-position: 0 0;
-			float: left;
-			overflow: hidden;
-		}
-
-		.slidesjs-pagination li a.active,
-		.slidesjs-pagination li a:hover.active {
-			background-position: 0 -13px
-		}
-
-		.slidesjs-pagination li a:hover {
-			background-position: 0 -26px
-		}
-
-		#slides a:link,
-		#slides a:visited {
-			color: #333
-		}
-
-		#slides a:hover,
-		#slides a:active {
-			color: #9e2020
-		}
-
-		.navbar {
-			overflow: hidden
-		}
-	</style>
 </head>
 <body>
 <div class="content pure-g-r">
@@ -149,7 +16,7 @@
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 			<a class="pure-menu-heading" href="/">Wandering Chef</a>
 			<ul>
-				<li class="pure-menu-selected"><a href="/">Home</a></li>
+				<li class="pure-menu-selected"><a href="index.html">Home</a></li>
 				<li><a href="">What is Pop-up?</a></li>
 				<li><a href="#">Chef Profiles</a></li>
 				<li><a href="#">Create a Pop-up</a></li>
@@ -163,12 +30,9 @@
 <br>
 							<!--End Header -->
 <div class="content pure-g-r">
-	<div class="pure-u-1" id="slides">
-		<img src="http://placehold.it/960x300">
-		<img src="http://placehold.it/960x300">
-		<img src="http://placehold.it/960x300">
-		<img src="http://placehold.it/960x300">
-		<img src="http://placehold.it/960x300">
+	<div class="pure-u-1">
+		<img src="img/WhatIsPopUp.png" width="100%">
+
 	</div>
 
 								<!--Projects -->
